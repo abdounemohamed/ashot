@@ -1,0 +1,5 @@
+#AuthName "Need Authentification to proceed"
+#AuthType Basic
+#AuthUserFile /var/www/www-root/data/www/dev-bankinfo.netbox.am/.htpasswd
+#AuthGroupFile /dev/null
+#require valid-user
